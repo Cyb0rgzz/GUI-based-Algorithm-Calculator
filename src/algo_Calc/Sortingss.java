@@ -49,7 +49,7 @@ class quiks
 	        }
 }	        
 
-// TEst class
+// Sorting logic Implemented Here
 
 
 class merg{
@@ -156,6 +156,12 @@ class heaps{
 	        }
 	     }
 	       
+}
+
+public void showData(String output) {
+	for (int i = 0; i < 10; i ++) {
+		System.out.println("Results after Sorting: " + output)
+	}
 }
 
 
@@ -428,7 +434,11 @@ public class Sortingss {
 		btnOpenCode.setBounds(372, 244, 97, 25);
 		frame.getContentPane().add(btnOpenCode);
 		
-		
+
+
+			
 	}
 }
+
+
 
